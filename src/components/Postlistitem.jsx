@@ -8,7 +8,7 @@ const Postlistitem = () => {
         <img src="postImg.jpeg" alt="" className="rounded-2xl object-cover" />
       </div>
       <div className=" flex flex-col gap-4 xl:w-2/3">
-        <Link to="/test" className="text-4xl font-semibold">
+        <Link to="/post/1" className="text-4xl font-semibold">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
           voluptate illo et velit{" "}
         </Link>
@@ -25,7 +25,7 @@ const Postlistitem = () => {
           magni. Dolore unde placeat alias qui commodi soluta in quis, corporis
           corrupti cupiditate!
         </p>
-        <Link to="/test" className="underline text-blue-700 text-sm">Read More</Link>
+        <Link to="/post/1" className="underline text-blue-700 text-sm">Read More</Link>
       </div>
     </div>
   );
